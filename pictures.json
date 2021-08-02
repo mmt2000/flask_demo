@@ -1,0 +1,45 @@
+{
+    "bears": [
+        {
+            "name": "Barry",
+            "image": "picture/bear1.jpg"
+        },
+        {
+            "name": "Ben",
+            "image": "picture/bear2.jpg"
+        }
+    ],
+
+    "cats": [
+        {
+            "name": "Kitty",
+            "image": "picture/cat1.jpg"
+        },
+        {
+            "name": "Karmi",
+            "image": "picture/cat2.jpg"
+        }
+    ],
+
+    "dogs": [
+        {
+            "name": "Doggy",
+            "image": "picture/dog1.jpg"
+        },
+        {
+            "name": "Rocky",
+            "image": "picture/dog2.jpg"
+        }
+    ],
+
+    "foxes": [
+        {
+            "name": "Vukk",
+            "image": "picture/fox1.jpg"
+        },
+        {
+            "name": "Foxy",
+            "image": "picture/fox2.jpg"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, url_for, redirect, session
-
+import json
 app = Flask(__name__)
 app.secret_key = "hello"
 
@@ -8,6 +8,8 @@ def login():
     if request.method == "POST":
         user = request.form["nm"]
         animal = request.form["animal"]
+        return f"<h1>{animal}</h1>"
+
         session["user"] = user
         if not user:
             return render_template("home.html")
